@@ -16,6 +16,20 @@ var topKFrequent = function(nums, k) {
     }
  
 return Object.values(obj).sort((a, b) => b[1] - a[1]).map(el => el[0]).splice(0, k) 
-
+// 1. 배열로 만들기
+// 2. 개수 큰 순서로 sort
+// 3. 숫자만 요소로 남기기
+// 4. k만큼만 자르기
 
 };
+
+
+
+
+// obj = {
+//     1: [1, 3],
+//     2: [2, 2],
+//     3: [3, 1]
+// }
+
+// [[1,3], [2,2], [3,1]]
