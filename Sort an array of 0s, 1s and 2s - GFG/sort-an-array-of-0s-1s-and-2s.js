@@ -73,11 +73,11 @@ class Solution {
 
         for (let i=0; i<arr.length; i++) {
              if(arr[i] === 0) {
-                 zeros++ //2
+                 zeros++ 
              } else if (arr[i] === 1) {
-                ones++ //1
+                ones++
             } else {
-                twos++  //2
+                twos++  
            }
         }
      
