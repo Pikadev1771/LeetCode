@@ -10,15 +10,13 @@
  * @return {ListNode}
  */
 var middleNode = function(head) {
-
-    let left = head
+     let left = head
     let right = head
-
-while(right && right.next) {
+    
+    while(right && right.next) {
     left = left.next
     right = right.next.next
-}  
-
-return left
-
+    }  
+    
+    return left
 };
